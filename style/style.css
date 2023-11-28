@@ -1,0 +1,70 @@
+/* ### RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ /* ### UTILS */
+
+ .container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* ### PRODUCTS */
+
+#products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.card{
+    position: relative;
+    width: calc((100% / 3) - 20px);
+    min-width: 300px;
+    border: 1px dashed black;
+    margin: 10px;
+    
+
+
+    /* debug */
+
+    min-height: 200px;
+}
+
+.sotto{
+    max-width: 100%;
+    
+}
+
+.sopra{
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.card:hover .sopra{
+    display: block;
+}
+.card .heart{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    background-color: white;
+    padding: 5px;
+   
+    text-align: center;
+}
+
+.heart{
+background-color: white;
+
+}
+.heart:hover 
