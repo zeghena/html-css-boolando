@@ -64,7 +64,32 @@
 }
 
 .heart{
-background-color: white;
+    background-color: white;
 
 }
-.heart:hover 
+.card:hover .heart{
+    color: red;
+} 
+
+.card .sale{
+    position: absolute;
+    background-color: red;
+    bottom: 15px;
+    padding: 5px;
+    color: white;
+    font-weight: bolder;
+    left: 0;
+
+}
+
+.green{
+    position: absolute;
+    background-color: rgb(38, 136, 71);
+    bottom: 15px;
+    padding: 5px;
+    color: white;
+    font-weight: bolder;
+    left: 50px;
+    display: inline-block;
+
+}
