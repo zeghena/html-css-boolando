@@ -6,6 +6,17 @@
     box-sizing: border-box;
 }
  /* ### UTILS */
+header{
+    position: fixed;
+    background-color: orange;
+    display: flex;
+    right: 0;
+    left: 0;
+    max-width: 1170px;
+    justify-content: center;
+    width: 90%;
+}
+
 
  .container{
     max-width: 1200px;
